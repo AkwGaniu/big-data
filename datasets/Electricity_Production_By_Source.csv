@@ -1,4 +1,4 @@
-Entity,Code,Year,Electricity_from_coal,Electricity_from_gas,Electricity_from_hydro,Electricity_from_other_renewables,Electricity_from_solar,Electricity_from_oil,Electricity _from_wind,Electricity_from_nuclear
+entity,code,year,electricity_from_coal,electricity_from_gas,electricity_from_hydro,electricity_from_other_renewables,electricity_from_solar,electricity_from_oil,electricity _from_wind,electricity_from_nuclear
 Afghanistan,AFG,2000,0,0.155,0.312,0,0,0,0,0
 Afghanistan,AFG,2001,0,0.094,0.498,0,0,0,0,0
 Afghanistan,AFG,2002,0,0.132,0.555,0,0,0,0,0
