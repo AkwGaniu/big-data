@@ -33,3 +33,6 @@ After this you will be asked to confirm you current password then supply and
 confirm a new password. This new password will be your linux password for the
 root user, take note of it.
 After you set this password you will be logged into the HDP host.
+
+
+https://ourworldindata.org/co2-and-greenhouse-gas-emissions
