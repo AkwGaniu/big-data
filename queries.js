@@ -1,2 +1,14 @@
-create table derived_ev_sales as select region as country,parameter,powertrain,year,value from ev_sales where year between 2010 to 2018 and parameter='EV sale' 
-		and powertrian='EV' and country in ('United Kingdom','United State','Uruguay','Zimbabwe','Ukraine','Turkey')
+CREATE TABLE derived_ev_sales AS
+SELECT
+  region AS country,
+  parameter,
+  powertrain,
+  year,
+  value
+FROM
+  ev_sales
+WHERE
+  year BETWEEN 2010 AND 2018
+  AND parameter = 'EV sale'
+  AND powertrain = 'EV'
+  AND country IN ('United Kingdom', 'United States', 'Uruguay', 'Zimbabwe', 'Ukraine', 'Turkey');
