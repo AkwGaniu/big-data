@@ -56,3 +56,18 @@ FROM
     globalco2emissions_2011_2018 g
 JOIN 
     environment_temperature_change_2011_2018 e ON g.country = e.country;
+
+
+SELECT
+  e.timestamp,
+  e.coal_production,
+  e.wind_production,
+  e.gas_production,
+  c.co2_emission,
+  c.co2_emission / e.coal_production AS coal_carbon_intensity,
+  c.co2_emission / e.wind_production AS wind_carbon_intensity,
+  c.co2_emission / e.gas_production AS gas_carbon_intensity
+FROM
+  electricity_production e
+JOIN
+  co2_emissions c ON e.timestamp = c.timestamp;
